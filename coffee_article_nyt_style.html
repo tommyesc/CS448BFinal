@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cup of You: How Coffee in the U.S. Became a Personalized Expression</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f2e9e1 0%, #e7dad0 100%);
+            color: #5e4637;
+        }
+
+        header {
+            background: linear-gradient(to right, #4b2e2e, #6f4e37);
+            padding: 3em 2em;
+            text-align: center;
+            border-bottom: 2px solid #d8c2a8;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5em;
+            font-weight: 700;
+            margin: 0;
+            color: #f2e9e1;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+            letter-spacing: 1px;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 2em auto;
+            background: #fff;
+            padding: 3em 2em;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .section-title {
+            font-family: 'Coustard', serif;
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+            color: #4b2e2e;
+            border-bottom: 2px solid #d8c2a8;
+            padding-bottom: 0.3em;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #5e4637;
+        }
+
+        .visual {
+            text-align: center;
+            margin: 3em 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2em;
+            background: #4b2e2e;
+            color: #f2e9e1;
+            font-size: 0.9em;
+            border-top: 2px solid #d8c2a8;
+        }
+
+        a {
+            color: #6F4E37;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #4b2e2e;
+        }
+
+        h3 {
+            font-family: 'Coustard', serif;
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+            color: #4b2e2e;
+        }
+
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .fade-in-section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .tooltip, .timeline-tooltip {
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Merriweather', serif;
+            font-size: 0.9em;
+            visibility: hidden;
+            z-index: 9999;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            color: #4b2e2e;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                padding: 2em 1em;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+            .section-title {
+                font-size: 1.7em;
+            }
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>A Cup of You: How Coffee in the U.S. Became a Personalized Expression of Identity</h1>
+</header>
+
+<div class="content">
+
+    <section class="fade-in-section">
+        <div class="section-title">Your Coffee, Your Story</div>
+        <p>Coffee has evolved from a morning necessity to a cultural symbol, a deeply personal reflection of identity. Every day, millions of Americans wake up and perform the same ritual: crafting the perfect cup. A splash of oat milk, a shot of vanilla, or a strong espresso, small, deliberate choices that transform a simple beverage into a personal statement.</p>
+        <p>Once a utilitarian drink served black or sweetened simply, coffee today is a curated experience, shaped by individual preferences, social values, and cultural trends. It’s not just a beverage, it’s a mirror of identity, reflecting how we see ourselves and how we want to be seen.</p>
+        <p>How did this transformation happen? How did coffee become a cultural symbol, a personal ritual, and a shared experience? To explore this, we begin where many coffee stories start: at home.</p>
+    </section>
+
+    <section class="fade-in-section">
+        <div class="section-title">Coffee at Home: Where Identity Is Crafted</div>
+        <p>The ritual of making coffee at home has evolved into a creative act of self-expression. Where once the only choices were cream or sugar, today’s shelves are lined with single-origin beans, oat milks, artisanal syrups, and state-of-the-art brewing gadgets. Home brewing is no longer just about caffeine, it’s about craftsmanship and customization.</p>
+        <p>Consider the first visualization: The Equation of Coffee Combinations. Hover over each number to learn more.</p>
+        
+        <div class="visual fade-in-section">
+            <h3>Visual 1: The Equation of Coffee Combinations</h3>
+            <div id="observablehq-viewof-coffeeChoicesVisualization-90787eac"></div>
+            <p>Credit: <a href="https://observablehq.com/d/d8e20997c14a0cc0@120">Coffee in America; Tommy & Riya by Riya Karumanchi</a></p>
+        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+            <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/d8e20997c14a0cc0@120.js?v=4&api_key=bea052cf1fe2de2fbe439500f7f049a0035e39e4";
+            new Runtime().module(define, name => {
+              if (name === "viewof coffeeChoicesVisualization") return new Inspector(document.querySelector("#observablehq-viewof-coffeeChoicesVisualization-90787eac"));
+            });
+            </script>
+        </div>
+
+        <p>This shows how brewing coffee at home has expanded from a binary decision to thousands of combinations, influenced by individual creativity and cultural trends.</p>
+        <p>For example:</p>
+        <ul>
+            <li>In 2010, only 1% of U.S. households owned an espresso machine. By 2020, that number had risen to 9%, as more Americans pursued barista-level precision at home (NCAUSA).</li>
+            <li>62% of Americans drink coffee daily, and 66% brew it at home, driven by ritual and preference rather than necessity (NCAUSA).</li>
+        </ul>
+        <p>Home brewing isn’t just practical, it’s identity creation. Sustainability-conscious drinkers choose fair-trade beans. Minimalists might opt for black coffee. Wellness seekers pick dairy-free milks and natural sweeteners. Each ingredient tells a personal story.</p>
+    </section>
+
+    <section class="fade-in-section">
+        <p>As we move beyond the home, personal preferences become social markers, shaping shared experiences and cultural signals.</p>
+    </section>
+
+    <section class="fade-in-section">
+        <div class="section-title">Build Your Brew: Where Taste Becomes Identity</div>
+        <p>Coffee preferences aren’t just personal, they’re social markers. Every selection, from the roast to the milk, tells a story of belonging. Consider the second visualization: Build Your Own Coffee. Choose your coffee type, milk, sweetener, and extras, then see how your preferences connect you to others across the country.</p>
+        <p>Maybe you prefer cold brew with oat milk and vanilla, placing you among those who choose plant-based milk and popular flavored syrups. Or perhaps you’re a black coffee purist, joining many who forgo sweeteners entirely. If you love espresso with caramel syrup, you align with specialty coffee drinkers who seek bold, crafted experiences.</p>
+        <p>These choices are cultural markers shaped by broader trends. Cold brew, once unknown, now accounts for a large share of orders. Espresso pods, once niche, became mainstream after Nespresso’s introduction in 1986. Each selection reflects cultural currents, from wellness movements to nostalgic flavors.</p>
+        
+        <div class="visual fade-in-section">
+            <h3>Visual 2: Interactive Coffee Builder</h3>
+            <div id="observablehq-viewof-chart-508e3fac"></div>
+            <p>Credit: <a href="https://observablehq.com/d/6a83780530dbae3d@7">Brew Coffee by Riya Karumanchi</a></p>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+            <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/6a83780530dbae3d@7.js?v=4";
+            new Runtime().module(define, name => {
+              if (name === "viewof chart") return new Inspector(document.querySelector("#observablehq-viewof-chart-508e3fac"));
+            });
+            </script>
+        </div>
+
+        <p>The drive for customization doesn’t stop at home. It has reshaped the modern coffee industry, with Starbucks leading the way—turning personal preferences into a scalable business model.</p>
+    </section>
+
+    <section class="fade-in-section">
+        <div class="section-title">The Starbucks Effect: Personalization at Scale</div>
+        <p>Starbucks didn’t just sell coffee, it sold personalization, turning custom orders into a cultural phenomenon and offering millions of combinations on a mass scale.</p>
+        <p>Explore the third visualization: The Evolution of the Starbucks Menu. Drag the slider and hover over each bar to see how the menu expanded from one basic offering in 1971 to countless customizable drinks today. Starbucks turned customization into commerce. Cold drinks now lead the market, driven by younger consumers who seek tailored experiences.</p>
+        <p>This menu expansion wasn’t just about business growth, it mirrored societal changes toward greater personal choice. Starbucks transformed coffee into an experience of customization, with drinks that could be endlessly personalized through modifiers, syrups, and add-ons.</p>
+        <p><em>Fun Fact:</em> In 2022, 60% of all Starbucks drinks were customized, generating over $1 billion in modifier-based revenue.</p>
+        <p>Ordering a “venti oat milk caramel latte with light foam” isn’t just about taste, it’s about curating an experience. Starbucks made personalization a cultural norm, where every order is a performance of identity.</p>
+
+        <div class="visual fade-in-section">
+            <h3>Visual 3: The Evolution of the Starbucks Menu</h3>
+            <div id="observablehq-viewof-starbucksVisualization-bbcc354a"></div>
+            <p>Credit: <a href="https://observablehq.com/d/d8e20997c14a0cc0@114">Coffee in America; Tommy & Riya by Riya Karumanchi</a></p>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+            <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/d8e20997c14a0cc0@114.js?v=4&api_key=bea052cf1fe2de2fbe439500f7f049a0035e39e4";
+            new Runtime().module(define, name => {
+              if (name === "viewof starbucksVisualization") return new Inspector(document.querySelector("#observablehq-viewof-starbucksVisualization-bbcc354a"));
+            });
+            </script>
+        </div>
+    </section>
+
+    <section class="fade-in-section">
+        <p>Coffee’s role in identity also extends into what we share and gift, adding another layer of cultural significance.</p>
+    </section>
+
+    <section class="fade-in-section">
+        <div class="section-title">Coffee as a Shared Gift: Meaning Beyond the Cup</div>
+        <p>Coffee isn’t just something we consume, it’s something we give. Notice how in the timeline, each November/December, Google searches for “coffee maker” surge, even surpassing “Buy iPhone in all 50 states. Hover over the timeline and US map to see the interest breakdown in each state.”</p>
+        <p>Coffee as a gift is an invitation, an experience of new flavors and meaningful moments. In a world where experiences matter more than possessions, gifting coffee says: I see you, I know your taste, and I want you to have something special. Coffee becomes a symbol of care, thoughtfulness, and shared identity.</p>
+        
+        <div class="visual fade-in-section">
+            <h3>Visual 4: Search Trends Comparison</h3>
+            <div id="observablehq-viewof-chart-84caa1c4"></div>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+            <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/1b0f394740927db1@128.js?v=4";
+            new Runtime().module(define, name => {
+              if (name === "viewof chart") return new Inspector(document.querySelector("#observablehq-viewof-chart-84caa1c4"));
+            });
+            </script>
+        </div>
+    </section>
+
+    <section class="fade-in-section">
+        <div class="section-title">The Coffee Identity Movement</div>
+        <p>Coffee in the U.S. has evolved into a personal ritual, a cultural icon, and a shared experience. Every cup—whether brewed at home, ordered at a café, or given as a gift—tells a story.</p>
+        <p>It’s a story of identity, connection, and meaning, reflecting who we are, how we see ourselves, and how we share our lives, one cup at a time.</p>
+        <p>Tomorrow morning, when you craft your perfect brew, remember: You’re not just drinking coffee, you’re participating in a cultural ritual as personal as it is universal.</p>
+    </section>
+</div>
+
+<footer>
+    <p>Published by Tommy Escudero & Riya Karumanchi</p>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const sections = document.querySelectorAll('.fade-in-section');
+      const options = { threshold: 0.1 };
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, options);
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+</script>
+
+</body>
+</html>
